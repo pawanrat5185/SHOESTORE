@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoestore/pages/item/item_page.dart';
 
 import 'pages/home/home_page.dart';
 import 'pages/login/login_page.dart';
@@ -24,6 +25,8 @@ class MyApp extends StatelessWidget {
         //route name      //route page
         "/": (context) => LoginPage(),
         "homePage": (context) => HomePage(),
+        "itemPage":(context) => ItemPage(),
+
       },
     );
   }
